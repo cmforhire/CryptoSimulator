@@ -7,8 +7,6 @@ Can You make it past 1 Millon? Try and see!
 
 import os, sys, random, copy
 
-
-
 myCash = random.uniform(2000.0, 15500.0)
 myCash = round(myCash, 2)
 # your wallet of total dollars you have
@@ -36,7 +34,6 @@ btc, eth, xrp, xlm, trx = listing
 # pricing for each coin
 btcPrice, ethPrice, xrpPrice, xlmPrice, trxPrice = 1000, 300, .50, .30, .05
 prices = ['bitcoin: $'+str(btcPrice), 'ethereum: $'+str(ethPrice), 'ripple: $'+str(xrpPrice), 'stellar: $'+str(xlmPrice), 'Tron: $'+str(trxPrice)]
-
 
 # code for getting profile
 def getProfile():
